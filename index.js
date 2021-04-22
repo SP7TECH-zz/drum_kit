@@ -48,7 +48,7 @@ function makeSound(key) {
             kick.play();
             break;
         default:
-            alert("Invalid button pressed");
+            console.log("Invalid button pressed");
 
     }
 }
